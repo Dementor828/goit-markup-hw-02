@@ -1,0 +1,212 @@
+/*region general*/
+body {
+    font-family: Roboto, Raleway, sans-serif;
+    font-weight: 700;
+    color: #2E2F42;
+}
+
+a {
+    text-decoration: none;
+}
+/*endregion general*/
+
+/*region comments*/
+/*
+===========Colors==============
+IRIS - #4D5AE5
+OCEAN - #404BBF
+Navy blue - #2E2F42
+GREEN - #31D0AA
+SLATE - #434455
+LIGHT SLATE - #8E8F99
+CORNFLOWER - #E7E9FC
+CLOUD - #F4F4FD
+NAVY BLUE modal - #2E2F42
+GREY - #2E2F42
+WHITE - #FFFFFF
+Dairy - #FCFCFC
+
+*/
+/*endregion comments*/
+
+/*region custom*/
+.li-disable-dots {
+    list-style: none;
+    padding-left: 0;
+}
+/*endregion custom*/
+
+/*region header*/
+
+.logo-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 117%;
+    text-transform: uppercase;
+    font-family: Raleway, sans-serif;
+}
+.logo-name-part {
+    color: #4D5AE5;
+}
+
+
+.nav-item > a {
+    font-weight: 500;
+    line-height: 150%;
+    text-decoration: none;
+}
+.nav-item > a:hover {
+    color: #404BBF;
+}
+.nav-item > a:active {
+    text-decoration: underline;
+}
+
+.contacts-item > a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #434455;
+}
+.contacts-item > a:hover {
+    color: #404BBF;
+}
+
+/*endregion header*/
+
+/*region main*/
+
+/*region hero*/
+.hero {
+    background-color: #2E2F42;
+}
+
+.hero-title {
+    font-size: 56px;
+    line-height: 107%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.hero-button {
+    border-radius: 4px;
+    width: 169px;
+    height: 56px;
+    background: #4D5AE5;
+}
+.hero-button:hover {
+    background: #404BBF;
+}
+/*endregion hero*/
+
+/*region advantages*/
+
+.advantages-header-title {
+    display: none;
+}
+.advantages-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+}
+.advantages-text {
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 150%;
+     letter-spacing: 0.02em;
+}
+/*endregion advantages*/
+
+/*region team*/
+
+.team {
+    background: #F4F4FD;    
+}
+
+.team-header-title {
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.team-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+.team-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
+/*endregion team*/
+
+/*region portfolio*/
+
+.team {
+    background: #F4F4FD;
+}
+
+.portfolio-header-title {
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.portfolio-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+}
+.portfolio-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/*endregion portfolio*/
+
+/*endregion main*/
+
+/*region footer*/
+
+.page-footer {
+    background: #2E2F42;
+}
+
+.footer-logo-name {
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F4F4FD;
+    font-family: Raleway, sans-serif;
+}
+.footer-logo-name-part {
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    font-family: Raleway, sans-serif;
+    color: #4D5AE5;
+}
+
+.page-footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+}
+
+
+/*endregion footer*/
