@@ -54,20 +54,16 @@ Dairy - #FCFCFC
     color: #2E2F42;
 }
 
-
 .nav-item > a {
     font-weight: 500;
     line-height: 150%;
     text-decoration: none;
     letter-spacing: 0.02em;
-}
-
-.nav-item > a:hover {
     color: #2e2f42;
 }
 
-.nav-item > a:focus {
-    color: #2e2f42;
+.nav-item > a:hover, a:focus {
+    color: #404bbf;
 }
 
 .nav-item > a:active {
@@ -75,10 +71,7 @@ Dairy - #FCFCFC
 }
 
 .contacts-item > a {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 150%;
-    color: #434455;
+
 }
 
 .contacts-item > a:hover {
@@ -89,11 +82,8 @@ Dairy - #FCFCFC
     color: #404BBF;
 }
 
-.addresses {
-    font-style: normal
-}
-
-.addresses-mail {
+.addresses-item {
+    color: #434455;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
@@ -101,6 +91,7 @@ Dairy - #FCFCFC
 }
 
 .addresses {
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
@@ -125,8 +116,6 @@ Dairy - #FCFCFC
 }
 
 .hero-button {
-    width: 169px;
-    height: 56px;
     background: #4D5AE5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -149,6 +138,7 @@ Dairy - #FCFCFC
     font-size: 20px;
     line-height: 120%;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .advantages-text {
@@ -167,12 +157,17 @@ Dairy - #FCFCFC
     background: #F4F4FD;
 }
 
+.team-item {
+    background-color: #FFFFFF
+}
+
 .team-header-title {
     font-size: 36px;
     line-height: 111%;
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    color: #2e2f42;
 }
 
 .team-title {
@@ -181,6 +176,7 @@ Dairy - #FCFCFC
     line-height: 120%;
     letter-spacing: 0.02em;
     text-align: center;
+    color: #2e2f42;
 }
 
 .team-text {
@@ -213,6 +209,7 @@ Dairy - #FCFCFC
     font-size: 20px;
     line-height: 120%;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .portfolio-text {
@@ -220,7 +217,7 @@ Dairy - #FCFCFC
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: #2e2f42;
 }
 
 /*endregion portfolio*/
