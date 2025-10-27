@@ -70,10 +70,6 @@ Dairy - #FCFCFC
     text-decoration: underline;
 }
 
-.contacts-item > a {
-
-}
-
 .contacts-item > a:hover {
     color: #404BBF;
 }
@@ -202,6 +198,7 @@ Dairy - #FCFCFC
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    color: #2e2f42;
 }
 
 .portfolio-title {
@@ -217,7 +214,7 @@ Dairy - #FCFCFC
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: #434455;
 }
 
 /*endregion portfolio*/
